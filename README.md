@@ -62,8 +62,20 @@ payload_buffer JSON : {"timestamp":"20211221010010","E0:17:54:C1:D8:4C":{"count"
 ````
 
 ### Run the Sensor
+
 ````
 /home/nvidia/nvme/bluetooth-temperature-sensors/ble_sensor_mqtt_pub 0 1 100 500
+````
+
+### Consume from the Topic
+
+````
+
+bin/pulsar-client consume "persistent://public/default/ble-tempE0:17:54:C1:D8:4C" -s "tim" -n 0
+
+
+key:[null], properties:[], content:{"timestamp":"20211221014050","mac-address":"E0:17:54:C1:D8:4C","rssi":-37,"temperature":69.3,"units":"F","temperature-celsius":20.7,"humidity":39.8,"battery-pct":100,"sensor-name":"","location":"H5074 Govee Office","sensor-type":"6"}
+
 ````
 
 ### Reference
