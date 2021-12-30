@@ -78,6 +78,11 @@ key:[null], properties:[], content:{"timestamp":"20211221014050","mac-address":"
 
 ````
 
+### Configure Connection to Pulsar SQL (Presto / Trino)
+
+![Config](https://raw.githubusercontent.com/tspannhw/FLiP-GoveeThermometer/main/prestosettings.jpg)
+
+
 ### Consume from Pulsar SQL (Presto / Trino)
 
 ![SQL](https://raw.githubusercontent.com/tspannhw/FLiP-GoveeThermometer/main/pulsarsqlble.jpg)
@@ -86,3 +91,8 @@ key:[null], properties:[], content:{"timestamp":"20211221014050","mac-address":"
 
 * https://github.com/deepcoder/bluetooth-temperature-sensors
 * https://smile.amazon.com/gp/product/B07R586J37
+
+
+### Example Device
+
+![Device](https://raw.githubusercontent.com/tspannhw/FLiP-GoveeThermometer/main/govee.JPG)
