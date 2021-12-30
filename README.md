@@ -78,6 +78,10 @@ key:[null], properties:[], content:{"timestamp":"20211221014050","mac-address":"
 
 ````
 
+### Consume from Pulsar SQL (Presto / Trino)
+
+![SQL](https://raw.githubusercontent.com/tspannhw/FLiP-GoveeThermometer/main/pulsarsqlble.jpg)
+
 ### Reference
 
 * https://github.com/deepcoder/bluetooth-temperature-sensors
